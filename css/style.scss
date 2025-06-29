@@ -1,0 +1,26 @@
+$h1-color: red;
+$h2-color: green;
+$h3-color: blue;
+$h1-fs: 20px;
+
+$header-bg: yellow;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: $h1-color;
+    font-size: $h1-fs;
+}
+
+h2{
+    color: $h2-color;
+    background: $header-bg;
+}
+
+h3{
+    color: $h3-color;
+}
