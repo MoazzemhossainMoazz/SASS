@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin mystyle($value) {
+    @if $value == small{
+        font-size: 25px;
+        color: red;
+    }
+    @else if $value == medium{
+        font-size: 35px;
+        color: blue;
+    }
+    @else if $value == large{
+        font-size: 45px;
+        color: green;
+    }
+    @else if $value == exlarge{
+        font-size: 60px;
+        color: orange;
+    }
+    @else{
+        font-size: none;
+    }
+}
+
+h1{
+    text-align: center;
+    @include mystyle(exlarge);
+}
