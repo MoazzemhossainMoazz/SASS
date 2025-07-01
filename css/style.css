@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+header h1 {
+  text-align: center;
+  background: yellow;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 nav {
   width: 90%;
   margin: auto;
@@ -25,4 +32,19 @@ nav ul li a {
 nav ul li a:hover {
   background: green;
   color: white;
+}
+
+main h2 {
+  text-align: center;
+  padding: 5px 0px;
+}
+main p {
+  text-align: justify;
+  padding: 0px 10px;
+}
+
+footer p {
+  background: green;
+  padding: 5px;
+  margin-top: 5px;
 }/*# sourceMappingURL=style.css.map */
