@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    font-weight: bold;
+    background: green;
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn1{
+    @extend .btn;
+}
+
+.btn2{
+    @extend .btn;
+    background: blue;
+}
+
+.btn3{
+    @extend .btn;
+    background: red;
+}
