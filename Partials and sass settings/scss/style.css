@@ -1,0 +1,33 @@
+header {
+  background-color: yellow;
+  padding: 10px;
+}
+header h1 {
+  background: lightblue;
+}
+header p {
+  color: white;
+  background: blue;
+  padding: 5px;
+}
+
+main {
+  background: tomato;
+  padding: 20px;
+}
+main h2 {
+  color: Yellow;
+  background: red;
+}
+main p {
+  background: yellow;
+  padding: 5px;
+}
+main .ex1 {
+  padding: 4px;
+  background: lightgreen;
+}
+main .ex2 {
+  padding: 4px;
+  background: green;
+}/*# sourceMappingURL=style.css.map */

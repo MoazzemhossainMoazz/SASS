@@ -1,0 +1,40 @@
+@forward "./base/index";
+
+header{
+    background-color: yellow;
+    padding: 10px;
+
+    h1{
+        background: lightblue;
+    }
+
+    p{
+        color: white;
+        background: blue;
+        padding: 5px;
+    }
+}
+
+main{
+    background: tomato;
+    padding: 20px;
+    
+    h2{
+        color: Yellow;
+        background: red;
+    }
+
+    p{
+        background: yellow;
+        padding: 5px;
+    }
+
+    .ex1{
+        padding: 4px;
+        background: lightgreen;
+    }
+    .ex2{
+        padding: 4px;
+        background: green;
+    }
+}
