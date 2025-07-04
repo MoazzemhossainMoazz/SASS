@@ -11,4 +11,9 @@ header{
 main{
     background-color: variable.$main_bg;
     padding: 1rem;
+
+    P{
+        padding:20px;
+        background-color: variable.$main_p_bg;
+    }
 }

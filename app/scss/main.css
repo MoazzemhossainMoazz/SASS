@@ -11,6 +11,10 @@ h1, h2, h3 {
   margin-top: 0;
 }
 
+p {
+  padding: 50px;
+}
+
 header {
   background-color: skyblue;
   padding: 1rem;
@@ -19,4 +23,8 @@ header {
 main {
   background-color: orange;
   padding: 1rem;
+}
+main P {
+  padding: 20px;
+  background-color: green;
 }/*# sourceMappingURL=main.css.map */
