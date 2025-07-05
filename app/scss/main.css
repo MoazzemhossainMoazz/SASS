@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
@@ -8,11 +8,16 @@
 }
 
 h1, h2, h3 {
-  margin-top: 0;
+  margin-top: 10px;
+}
+
+main h2, main p {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-  padding: 50px;
+  padding: 30px;
 }
 
 header {
@@ -21,10 +26,9 @@ header {
 }
 
 main {
-  background-color: orange;
+  background-color: blue;
   padding: 1rem;
 }
 main P {
-  padding: 20px;
   background-color: green;
 }/*# sourceMappingURL=main.css.map */
